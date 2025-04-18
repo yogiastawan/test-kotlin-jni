@@ -1,0 +1,88 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "/home/gihexdev00/Programming/java/test-jnibuildtest-jni",
+			"script": "build",
+			"description": "Assembles and tests this project.",
+			"group": "build",
+			"project": "test-jni",
+			"buildFile": "/home/gihexdev00/Programming/java/test-jni/build.gradle",
+			"rootProject": "test-jni",
+			"projectFolder": "/home/gihexdev00/Programming/java/test-jni",
+			"workspaceFolder": "/home/gihexdev00/Programming/java/test-jni",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: build"
+		},
+		{
+			"type": "gradle",
+			"id": "/home/gihexdev00/Programming/java/test-jnicleantest-jni",
+			"script": "clean",
+			"description": "Deletes the build directory.",
+			"group": "build",
+			"project": "test-jni",
+			"buildFile": "/home/gihexdev00/Programming/java/test-jni/build.gradle",
+			"rootProject": "test-jni",
+			"projectFolder": "/home/gihexdev00/Programming/java/test-jni",
+			"workspaceFolder": "/home/gihexdev00/Programming/java/test-jni",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: clean"
+		},
+		{
+			"type": "gradle",
+			"id": "/home/gihexdev00/Programming/java/test-jniruntest-jni",
+			"script": "run",
+			"description": "Runs this project as a JVM application",
+			"group": "application",
+			"project": "test-jni",
+			"buildFile": "/home/gihexdev00/Programming/java/test-jni/build.gradle",
+			"rootProject": "test-jni",
+			"projectFolder": "/home/gihexdev00/Programming/java/test-jni",
+			"workspaceFolder": "/home/gihexdev00/Programming/java/test-jni",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: run"
+		},
+		{
+			"type": "cmake",
+			"label": "CMake: build",
+			"command": "build",
+			"targets": [
+				"all"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"detail": "CMake template build task"
+		},
+		{
+			"type": "gradle",
+			"id": "/home/gihexdev00/Programming/java/test-jnitesttest-jni",
+			"script": "test",
+			"description": "Runs the test suite.",
+			"group": "verification",
+			"project": "test-jni",
+			"buildFile": "/home/gihexdev00/Programming/java/test-jni/build.gradle",
+			"rootProject": "test-jni",
+			"projectFolder": "/home/gihexdev00/Programming/java/test-jni",
+			"workspaceFolder": "/home/gihexdev00/Programming/java/test-jni",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: test"
+		}
+	]
+}

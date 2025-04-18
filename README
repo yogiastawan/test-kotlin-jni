@@ -1,0 +1,5 @@
+# REFERENCES
+
+- https://github.com/ly3too/java-jna-jni/tree/master
+- https://github.com/stwind/gradle-jni/tree/master
+- https://stackoverflow.com/questions/71025738/gradle-add-native-library-dir-to-java-library-path-not-for-test-but-for-run
