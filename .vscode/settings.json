@@ -1,4 +1,4 @@
 {
-    "cmake.sourceDirectory": "/home/gihexdev00/Programming/java/test-jni/native",
+    "cmake.sourceDirectory": "${workspaceFolder}/native",
     "cmake.buildDirectory": "${workspaceFolder}/native/build"
 }
